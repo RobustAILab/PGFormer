@@ -17,17 +17,6 @@ Instead of directly enforcing identical representations across views, PGFormer l
 
 ## 🏗️ Framework
 
-![PGFormer](./Framework.png)
-
-## ✨ Key Contributions
-
-1. **Prototype-graph representation learning:** Uses view-specific prototypes as semantic bottlenecks to capture graph structure and long-range dependencies without discarding view diversity.
-2. **Dual attention mechanisms:** Prototype-to-prototype (**P2P**) self-attention models prototype relationships, while prototype-to-node (**P2N**) cross-attention refines node embeddings using prototype information.
-3. **Cross-prototype imputation (CPI):** Reconstructs missing embeddings using prototype assignments from available views and refined prototypes of the missing view.
-4. **Cross-view alignment:** Encourages consistent cluster assignments using cluster-level contrastive learning and a KL-divergence-based alignment objective.
-
-## 🏗️ Framework
-
 The overall pipeline has four stages:
 
 1. **View feature learning:** Pretrain view-specific autoencoders using available samples.
@@ -35,7 +24,7 @@ The overall pipeline has four stages:
 3. **Cross-prototype imputation:** Estimate missing-view embeddings from cross-view prototype assignments and intraview prototypes.
 4. **Cross-view alignment and clustering:** Align completed prototype assignments across views and derive cluster labels by aggregating the assignments.
 
-> **Architecture figure:** Add an image of Fig. 1 from the paper (with appropriate permission) to the repository and embed it here, for example using `![PGFormer framework](/Framework.png)`.
+> **Architecture figure: ![PGFormer](./Framework.png)
 
 ### Training objective
 
