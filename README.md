@@ -15,6 +15,10 @@ Department of Computer Science, Old Dominion University, Norfolk, VA, USA
 
 Instead of directly enforcing identical representations across views, PGFormer learns **view-specific semantic prototypes** and aligns their **cluster assignments**. It combines graph convolution, prototype-level self-attention, prototype-to-node cross-attention, and cross-prototype imputation to capture multilevel topological relationships and recover missing information in the embedding space.
 
+## 🏗️ Framework
+
+![PGFormer](./framework.png)
+
 ## ✨ Key Contributions
 
 1. **Prototype-graph representation learning:** Uses view-specific prototypes as semantic bottlenecks to capture graph structure and long-range dependencies without discarding view diversity.
