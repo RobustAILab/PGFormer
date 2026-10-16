@@ -7,7 +7,6 @@ Department of Computer Science, Old Dominion University, Norfolk, VA, USA
 
 📄 **Published in IEEE Transactions on Neural Networks and Learning Systems (TNNLS), Vol. 37, No. 3, pp. 1163–1175, March 2026**  
 🔗 **[Paper (DOI)](https://doi.org/10.1109/TNNLS.2025.3617888)**  
-💻 **Code:** Add the official repository link here when available.
 
 ---
 
