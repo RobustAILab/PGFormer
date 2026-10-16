@@ -1,6 +1,6 @@
 # PGFormer: A Prototype-Graph Transformer for Incomplete Multiview Clustering
 
-**Yiming Du, Yao Wang, Ziyu Wang, Rui Ning, and Lusi Li^***
+**Yiming Du, Yao Wang, Ziyu Wang, Rui Ning, and Lusi Li***
 
 Department of Computer Science, Old Dominion University, Norfolk, VA, USA  
 
