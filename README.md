@@ -17,7 +17,7 @@ Instead of directly enforcing identical representations across views, PGFormer l
 
 ## 🏗️ Framework
 
-![PGFormer](./framework.png)
+![PGFormer](./Framework.png)
 
 ## ✨ Key Contributions
 
@@ -35,7 +35,7 @@ The overall pipeline has four stages:
 3. **Cross-prototype imputation:** Estimate missing-view embeddings from cross-view prototype assignments and intraview prototypes.
 4. **Cross-view alignment and clustering:** Align completed prototype assignments across views and derive cluster labels by aggregating the assignments.
 
-> **Architecture figure:** Add an image of Fig. 1 from the paper (with appropriate permission) to the repository and embed it here, for example using `![PGFormer framework](/PGFormer.png)`.
+> **Architecture figure:** Add an image of Fig. 1 from the paper (with appropriate permission) to the repository and embed it here, for example using `![PGFormer framework](/Framework.png)`.
 
 ### Training objective
 
